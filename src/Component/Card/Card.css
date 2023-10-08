@@ -1,0 +1,77 @@
+.tittle-one{
+    font-family: Playfair Display;
+    font-weight: 600;
+    font-size: 36px; 
+    line-height: 111.97px;
+    height: 65px;
+    margin-top: 50px;
+
+}
+@media only screen and (max-width: 967px) {
+    .tittle-one{
+        font-size: 20px;
+    font-weight: 500;
+    line-height: 50.66px;
+    margin-top: 25px;
+    }
+  }
+.tittle-two{
+    font-family: Playfair Display;
+    font-weight: 600;
+    font-size: 36px; 
+    line-height: 111.97px;
+    height: 65px
+}
+@media only screen and (max-width: 967px) {
+    .tittle-two{
+        font-size: 20px;
+    font-weight: 500;
+    line-height: 50.66px;
+    }
+  }
+.tittle-three{
+    font-family: Playfair Display;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 111.97px;
+    height: 65px;
+    margin: 0%;
+}
+@media only screen and (max-width: 967px) {
+    .tittle-three{
+        font-size: 20px;
+    font-weight: 500;
+    line-height: 50.66px;
+    }
+  }
+.card-btn{
+    width: 170px;
+    height: 48px;
+    background: border-box;
+    margin-top: 34px;
+    border-color: #ffffff;
+    color: #ffffff; 
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Montserrat;
+}
+@media only screen and (max-width: 967px) {
+    .card-btn{
+        width: 130px;
+    height: 30px;
+    margin-top: 34px; 
+    font-size: 10px;
+    font-weight: 300;
+    }
+  }
+.card-img{
+    height:172px;
+    width:172px;
+    margin-top: 50px;
+}
+@media only screen and (max-width: 967px) {
+    .card-img{
+        width: 100px;
+    height: 100px;
+    }
+  }

@@ -1,0 +1,15 @@
+.btn{
+    width: 170px;
+    height: 48px;
+    background-color: #770015;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.btn-tittle{
+    width: 80px;
+    height: 20px;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 18px;
+    color: #ffffff;
+}

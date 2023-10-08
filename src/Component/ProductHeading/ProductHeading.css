@@ -1,0 +1,30 @@
+.productHeading-body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 40px
+}
+.product-tittle{
+    font-family:Playfair Display;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 47.99px;
+    align-items: center;
+}
+@media only screen and (max-width: 967px) {
+    .product-tittle{
+        font-family:Playfair Display;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 20px;
+        align-items: center;
+    }
+  }
+  .productHeading-img{
+    @media only screen and (max-width: 967px) {
+        display: none;
+    
+      }
+    
+  }

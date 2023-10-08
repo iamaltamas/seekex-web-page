@@ -1,0 +1,62 @@
+.footer-body{
+    display: flex;  
+}
+@media only screen and (max-width: 864px) {
+    .footer-body{
+       display: block;
+    }
+  }
+.Lorem-body{
+    width: 360px;
+    height: 178.33px;
+}
+@media only screen and (max-width: 864px) {
+    .Lorem-body{
+        width: 100%;
+    }
+  }
+.Lorem-paragraph{
+    font-family:Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    color: #1C1C1C;
+}
+.lorem-paragraph{
+    line-height: 25px;
+    margin-bottom: 0%;
+}
+.footer-img{
+    display: flex;
+}
+.social-img{
+    padding: 5px
+}
+.shopping-tittle{
+    height: 24px;
+    font-family: 
+    Playfair Display;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #770015;
+}
+.items{
+    display: flex;
+    align-items: center;
+}
+.shopping-img{
+    margin-right: 10px;
+    margin-top: 15px;
+}
+.shopping-paragraph{
+    margin-bottom: 0%;   
+}
+.footerOnlineShopping-body{
+    width: 100%;
+    padding-left: 50px;
+}
+@media only screen and (max-width: 400px) {
+    .footerOnlineShopping-body{
+        margin-top: 100px;
+    }
+  }

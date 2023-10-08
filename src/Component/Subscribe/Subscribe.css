@@ -1,0 +1,82 @@
+.subscribe-body{    
+height:312px;
+background-image: linear-gradient(to right, #AB001E , #770015);
+margin-top: 87px;
+position: relative;
+}
+.tittle{
+    width: 64%;
+    height: 96px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 47.99px;
+    position: absolute;
+    top: 33px;
+    left: 25%;
+    right: 25%;
+    color: #ffffff;
+}
+@media only screen and (max-width: 769px) {
+    .tittle {
+        width: 30%;
+        height: 30px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20.99px;
+  
+    }
+}
+.input-body{
+    display: flex;
+    width: 51%;
+    position: absolute;
+    top: 158px;
+    left: 24%;
+}
+.text-input{
+    width: 80%;
+    height: 66px;
+    padding-left: 26px;
+    background-color: #fbfafa29;
+    border: none;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 500;
+    ::-ms-input-placeholder { /* Edge 12-18 */
+        color: red;
+        opacity: 2;
+      }
+}
+
+.subscribe-btn{
+    width: 20%;
+    height: 68px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #770015;
+    font-family: Playfair Display;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 29.33px;   
+    cursor: pointer;
+}
+@media only screen and (max-width: 1018px) {
+    .input-body { 
+        display: block;
+        width: 70%; 
+  
+    }
+}
+
+@media only screen and (max-width: 1018px) {
+    .subscribe-btn {
+        width: 30%; 
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 15.33px; 
+        margin-top: 12px;
+  
+    }
+}

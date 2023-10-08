@@ -1,0 +1,25 @@
+.avatar-img-body{ 
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+@media only screen and (max-width: 1124px) {
+    .avatar-img-body{
+        display: grid;
+        grid-template-columns: auto auto auto auto ;
+        gap: 10px;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .avatar-img-body{
+        display: grid;
+        grid-template-columns: auto auto auto ;
+        gap: 10px;
+    }
+  }
+.product-name{
+    padding-left: 25px;
+}

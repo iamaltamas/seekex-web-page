@@ -1,0 +1,31 @@
+.banner-items{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.ban-img{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.card-item{
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.mid-border{
+    border: 1px solid;
+    border-width: 1px;
+    color: #E0DFDE;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.lazy-loading{
+    width: 100%;
+    font-size: 25px;
+    font-family: Monster;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+}
